@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.link-item-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  margin: 5px;
+  width: 40vw;
+  min-height: 95px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.link-item {
+  display: flex;
+  align-items: center;
+}
+.teams-heading {
+  font-size: 20px;
+  color: white;
+  font-family: 'Bree Serif';
+}
+
+@media screen and (min-width: 567px) {
+  .teams-heading {
+    font-size: 25px;
+  }
+  .link-item-container {
+    width: 40%;
+    min-height: 120px;
+  }
+}
+.team-image {
+  width: 20%;
+  padding: 8px;
+}
+@media screen and (min-width: 768px) {
+  .team-image {
+    width: 15%;
+  }
+}
